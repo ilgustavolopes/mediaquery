@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    box-sizing: border-box;
+    margin:0;
+}
+body{
+    background-color: rgb(103, 11, 103);
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    gap:5px;
+    align-items: center;
+    font-family: fantasy;
+    color: greenyellow;
+}
+.container{
+    width:100vw;
+    height:50px;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    justify-content: center;
+    gap:15px;
+    font-family: fantasy;
+    font-size: 30px;
+    color:purple;
+}
+img{
+    width:100vw;
+    height:140px;
+}
+#bt1{
+ width:40px;
+ background-color: purple;
+ border: none;
+ color:greenyellow;
+}
+#bt2{
+ width:40px;
+ background-color: purple;
+ border: none;
+ color:greenyellow;
+}
+/*medias querys*/
+@media (min-width:576px){
+    body{
+        background-color:rgb(133, 133, 243);
+        color:white;
+    }
+    .container{
+        background-color: white;
+        color:rgb(133, 133, 243) ;
+    }
+    #bt1{
+        background-color:rgb(133, 133, 243) ;
+        color:white;
+    }
+    #bt2{
+        background-color:rgb(133, 133, 243) ;
+        color:white;
+    }
+    img{
+        height:300px;
+    }
+}
+@media (min-width:768px){
+    body{
+        background-color:greenyellow;
+        color:green;
+    }
+    .container{
+        background-color: green;
+        color:greenyellow;
+    }
+    #bt1{
+        background-color:greenyellow;
+        color:green;
+    }
+    #bt2{
+        background-color:greenyellow;
+        color:green;
+    }
+    img{
+        height:400px;
+    }
+}
+@media (min-width:992px){
+    body{
+        background-color:darkblue;
+        color:white;
+    }
+    .container{
+        background-color: white;
+        color:darkblue;
+    }
+    #bt1{
+        background-color:darkblue;
+        color:white;
+    }
+    #bt2{
+        background-color:darkblue;
+        color:white;
+    }
+    img{
+        height:400px;
+    }
+}
+@media (min-width:1200px){
+    body{
+        background-color:darkturquoise;
+        color:white;
+    }
+    .container{
+        background-color: white;
+        color:darkturquoise;
+    }
+    #bt1{
+        background-color:darkturquoise;
+        color:white;
+    }
+    #bt2{
+        background-color:darkturquoise;
+        color:white;
+    }
+    img{
+        height:400px;
+    }
+}
+@media (min-width:1400px){
+    body{
+        background-color: blueviolet;
+        color:chartreuse;
+    }
+    .container{
+        background-color:chartreuse;
+        color:blueviolet;
+    }
+    #bt1{
+        background-color:blueviolet;
+        color:chartreuse;
+    }
+    #bt2{
+        background-color:blueviolet;
+        color:chartreuse;
+    }
+    img{
+        height:600px;
+    }
+}
